@@ -1,0 +1,219 @@
+* {
+  font-family: "Varela Round", sans-serif;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.48);
+  cursor: pointer;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 1;
+  box-shadow: 1px 1px#4d4d55, 2px 2px #8f92a1, 3px 3px #ecedf5;
+}
+
+button {
+  color: white;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  opacity: 0.5;
+}
+
+#userCard {
+  width: 20%;
+  display: flex;
+  height: auto;
+  margin: 0 auto;
+  flex-direction: column;
+  background-color: #2f334b;
+  overflow: hidden;
+  margin-top: 10%;
+  border-radius: 20px;
+}
+
+#userCard > header {
+  height: 50px;
+  width: 100%;
+}
+
+#userCard > header > .topBlock {
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+  padding: 30px 10px 0 10px;
+}
+
+#userCard > header > .topBlock button:nth-child(even) {
+  position: absolute;
+  top: 30px;
+  left: 5px;
+}
+
+#userCard > main,
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #4e5269;
+  margin: 0 15px 0 15px;
+}
+
+.userPhoto {
+  width: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.4);
+  height: auto;
+  margin-top: 15px;
+}
+
+.userName h1 {
+  color: #f9fafb;
+  padding-top: 10px;
+  font-size: 30px;
+}
+
+.userProfession p {
+  color: #84879f;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+.aboutUser p {
+  padding: 0 50px 0 50px;
+  text-align: center;
+  color: #b4b4b8;
+  padding-top: 10px;
+  font-size: 13px;
+}
+
+.buttonHireMe button {
+  background-image: linear-gradient(
+    to top right,
+    rgb(101, 115, 255),
+    rgb(111, 114, 247),
+    rgb(120, 114, 239),
+    rgb(130, 113, 231),
+    rgb(139, 112, 223),
+    rgb(149, 111, 215),
+    rgb(158, 111, 208),
+    rgb(168, 110, 200),
+    rgb(177, 109, 192),
+    rgb(187, 108, 184),
+    rgb(196, 108, 176),
+    rgb(206, 107, 168)
+  );
+  width: 125px;
+  height: 40px;
+  border-radius: 50px;
+  overflow: hidden;
+  border: none;
+  margin-top: 40px;
+  color: white;
+}
+
+.buttonHireMe button:hover {
+  cursor: pointer;
+  opacity: 1;
+  box-shadow: 1px 1px rgb(120, 114, 239), 2px 2px rgb(158, 111, 208),
+    3px 3px rgb(206, 107, 168);
+}
+
+footer {
+  padding-top: 20px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 50px;
+  margin: 0px 15px 0 15px;
+}
+
+footer div div:first-child {
+  display: flex;
+  width: 75px;
+  overflow: hidden;
+  border-radius: 50%;
+  height: 75px;
+  align-items: center;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.48);
+}
+
+footer div img {
+  width: 75px;
+  height: 50px;
+}
+
+footer div div:last-child {
+  padding: 0 10px 0 10px;
+}
+
+footer div div:last-child h4 {
+  padding-top: 10px;
+}
+
+footer div div:last-child p {
+  font-size: 12px;
+  color: #7b7e8f;
+}
+
+.socialIconLeft {
+  background-image: linear-gradient(
+    to top right,
+    rgb(232, 99, 255),
+    rgb(224, 93, 241),
+    rgb(217, 88, 228),
+    rgb(209, 82, 214),
+    rgb(201, 77, 200),
+    rgb(194, 71, 186),
+    rgb(186, 66, 173),
+    rgb(179, 60, 159),
+    rgb(171, 55, 145),
+    rgb(163, 49, 131),
+    rgb(156, 44, 118),
+    rgb(148, 38, 104)
+  );
+}
+.socialData {
+  color: white;
+  text-align: center;
+}
+.socialIconCenter {
+  background-image: linear-gradient(
+    to top right,
+    rgb(67, 191, 240),
+    rgb(66, 178, 232),
+    rgb(64, 164, 223),
+    rgb(63, 151, 215),
+    rgb(62, 137, 207),
+    rgb(60, 124, 198),
+    rgb(59, 110, 190),
+    rgb(57, 97, 181),
+    rgb(56, 83, 173),
+    rgb(55, 70, 165),
+    rgb(53, 56, 156),
+    rgb(52, 43, 148)
+  );
+}
+.socialIconRight {
+  background-image: linear-gradient(
+    to top right,
+    rgb(98, 70, 240),
+    rgb(97, 68, 232),
+    rgb(96, 65, 223),
+    rgb(94, 63, 215),
+    rgb(93, 60, 207),
+    rgb(92, 58, 198),
+    rgb(91, 55, 190),
+    rgb(90, 53, 181),
+    rgb(89, 50, 173),
+    rgb(87, 48, 165),
+    rgb(86, 45, 156),
+    rgb(85, 43, 148)
+  );
+}
